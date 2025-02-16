@@ -365,7 +365,8 @@ impl SysTray {
       None => "/index.html".to_string(),
       Some(path) => {
         format!(
-          "/index.html#/widget/{}",
+          // TODO: Need to get the pack ID.
+          "/index.html#/packs/TODO/{}",
           BASE64_STANDARD.encode(path.to_unicode_string())
         )
       }
