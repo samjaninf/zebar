@@ -7457,7 +7457,6 @@ version = "0.0.0"
 dependencies = [
  "anyhow",
  "async-trait",
- "base64 0.22.1",
  "clap",
  "cocoa 0.25.0",
  "crossbeam",
